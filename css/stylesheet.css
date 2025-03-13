@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#box {
+    width: 700px;
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: beige;
+}
+
+header h1 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+header nav {
+    text-align: center;
+    background-color: gray;
+}
+
+header a {
+    color: white;
+    background-color: rgb(214, 145, 214);
+}
+
+header form fieldset {
+    background-color: rgb(214, 145, 214);
+    border: none
+}
+
+.hero {
+    height: 200px;
+}
+
+h2 {
+    text-align: 30px;
+}
+
+article {
+    text-align: right;
+    background-color: yellow;
+}
+
+a {
+    color: white;
+    background-color: black;
+}
+
+li {
+    list-style-type: none;
+    text-decoration-line: none;
+}
+
+article img {
+    width: 300px;
+}
+
+article .img_wrap {
+    position: left;
+}
