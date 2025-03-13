@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333
+}
+
+ul {
+    list-style-type: none
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+#container {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    position: relative;
+    z-index: 3;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    position: relative;
+    z-index: 3;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 img {
+    width: 180px;
+}
+
+header>ul {
+    display: flex;
+    height: 30px;
+    align-self: flex-end;
+    background-color: #00c73c;
+    /*    border:1px solid #000;*/
+}
+
+header>ul>li {
+    position: relative;
+    color: #f2f2f2
+}
+
+header>ul>li+li {
+    /*    margin-left:20px;*/
+    /*    border-left:1px solid #000;*/
+
+}
+
+header>ul>li>a {
+    display: block;
+    width: 120px;
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+
+header>ul>li>a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.sub_menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    top: 100px;
+    z-index: 5;
+    background-color: rgba(116, 115, 115, 0.88);
+
+}
+
+.sub_menu>div {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+
+}
+
+.sub_menu>div>dl {
+    width: 120px;
+    text-align: center;
+}
+
+.sub_menu div>dl>dd {
+    color: #333;
+    line-height: 2;
+}
+
+.sub_menu div>dl>dd a {
+    display: block;
+    color: #ccc;
+
+}
+
+.sub_menu div>dl>dd:hover a {
+    background-color: rgba(0, 199, 60, 1);
+    color: #fff;
+}
+
+.blind {
+    display: none;
+}
+
+.blind {
+    display: none;
+}
+
+.visu_btn {
+    display: block;
+    position: absolute;
+    z-index: 56;
+}
+
+.visual {
+    position: relative;
+    z-index: 0;
+    overflow-y: hidden;
+    height: 300px;
+    background-color: rgb(235, 235, 235);
+}
+
+.visual ul {
+    position: absolute;
+    width: 100%;
+    height: 300%;
+    left: 0;
+    top: 0;
+    flex-flow: column;
+    display: flex;
+}
+
+.visual li {
+    width: 100%;
+    height: 300px;
+}
+
+.visual li img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.content {
+    padding-top: 10px;
+    height: 200px;
+    display: flex;
+    border-bottom: 1px solid #434748;
+}
+
+.content>div {
+    width: calc(100% / 3 - (20px / 3));
+}
+
+.content>div+div {
+    margin-left: 10px;
+}
+
+.content>div>h2 {
+    display: block;
+    font-size: 1.2rem;
+
+    border-bottom: 1px solid #434748;
+}
+
+.content>div>h2>span {
+    display: inline-block;
+    border: 1px solid #434748;
+    border-bottom-color: transparent;
+    background-color: #fff;
+    transform: translateY(1px);
+    padding: 5px 20px;
+}
+
+.notice ul {
+    padding: 20px;
+}
+
+.notice ul li a {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    line-height: 1.7;
+}
+
+.gallery ul {
+    padding: 20px;
+    display: flex;
+}
+
+.gallery ul li {
+    width: calc(100% / 3 - (20px / 3));
+}
+
+.gallery ul li img {
+    width: 100%;
+}
+
+.gallery ul li+li {
+    margin-left: 10px;
+}
+
+.banner a {
+    display: block;
+    padding: 20px;
+}
+
+.banner a img {
+    width: 100%;
+    height: 80px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    z-index: 5;
+    left: 50%;
+    top: 50%;
+    transform: translate(-200px, -200px);
+    background-color: #fff;
+    padding: 20px;
+    border: 5px solid #00c73c;
+}
+
+.popup li {
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 2
+}
+
+a.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+
+.list {
+    position: relative;
+    padding: 20px;
+    margin-top: -1px;
+    border: 1px solid #000;
+    z-index: 0;
+    background-color: #fff;
+    height: 170px
+}
+
+footer {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h1 {}
